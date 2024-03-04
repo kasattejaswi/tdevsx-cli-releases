@@ -2,10 +2,13 @@
 
 This repository contains the public releases of tdevsx cli including plugins and main cli.
 
-# Directory structure
+# Getting started
 
-At root, there is a main CLI with version information available. This CLI will be published for different operating systems and architectures.
+Setting up tdevsx CLI is easy and involves three simple steps:
 
-Under plugins, the plugins for different exercises will be published. These plugins will be pulled automatically based on operating system and system architecture by the main CLI. Update checks are automated and will be checked by main CLI on every execution. If a plugin with new version is available, it will be auto downloaded in user's home directory.
+## Step 1: Download relevant binaries
+Download relevant binaries based on your system OS and architecture
 
-# Installation steps
+| OS | AMD64 | ARM64 |
+| ------ | ------ | ------ |
+| Windows | (https://github.com/kasattejaswi/tdevsx-cli-releases/raw/main/tdevsx-windows-amd64/tdevsx.exe)[Click Here] | Not Available |
