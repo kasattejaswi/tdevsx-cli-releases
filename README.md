@@ -18,7 +18,7 @@ Download relevant binaries based on your system OS and architecture
 Once downloaded, move under a specific folder at any location. Copy this location as you need it for next step.
 
 ## Step 2: Setup path
-Different operating systems have different ways to set a path. You can follow below guides to setup path:
+Copy the path of the location where you have downloaded the CLI binary. Different operating systems have different ways to set a path. You can follow below guides to setup path:
 
 | OS | Guide |
 | ------ | ------ |
@@ -27,6 +27,16 @@ Different operating systems have different ways to set a path. You can follow be
 | Linux | [Guide](https://opensource.com/article/17/6/set-path-linux) |
 
 ## Step 3: Test CLI installation
+
+If you are using Linux or Macos, run below command to modify CLI permissions:
+```bash
+chmod +x /path/to/tdevsx
+```
+
+If you are using MacOS, run below command before testing CLI to allow execution:
+```bash
+xattr -d com.apple.quarantine /path/to/tdevsx
+```
 
 To test the CLI, open a new terminal on you system and run below command:
 ```bash
