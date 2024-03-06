@@ -17,6 +17,8 @@ Download relevant binaries based on your system OS and architecture
 
 Once downloaded, move under a specific folder at any location. Copy this location as you need it for next step.
 
+> This CLI maybe considered as virus from windows and apple based systems. Reason is, this CLI executes multiple commands related to exercises on shell to validate the solutions due to which anti viruses may show them as false positives. In case you face such issue, please whitelist this CLI in your anti-virus software.
+
 ## Step 2: Setup path
 Copy the path of the location where you have downloaded the CLI binary. Different operating systems have different ways to set a path. You can follow below guides to setup path:
 
